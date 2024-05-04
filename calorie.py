@@ -3,7 +3,7 @@ import os
 import google.generativeai as genai
 from PIL import Image
 
-api_key='our Gemini pro api_key'
+api_key='Your Gemini pro api_key'
 genai.configure(api_key=api_key)
 
 def get_gemini_repsonse(input_prompt,image,input):
